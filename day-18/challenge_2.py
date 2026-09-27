@@ -1,0 +1,14 @@
+import turtle as t
+
+tim = t.Turtle()
+tim.color('DarkSeaGreen4')
+tim.shape('turtle')
+
+for _ in range(15):
+    tim.forward(10)
+    tim.penup()
+    tim.forward(10)
+    tim.pendown()
+
+screen = t.Screen()
+screen.exitonclick()
